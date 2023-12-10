@@ -1,0 +1,93 @@
+.app {
+    height: auto;
+    background-color: white ;
+}
+.container__header {
+    padding: 50px 0;
+}
+.container__content {
+    margin: 50px 0;
+}
+.point-table {
+    border: 1px solid #ddd;
+    border-collapse: collapse;
+    width: 100%;
+    text-align: center;
+}
+.point-table th,
+.point-table td {
+    border: 1px solid #ddd;
+}
+.point-table tr > th {
+    color: #1DA1F2;
+    background-color: #f3f7f9;
+    font-size: 1.4rem;
+    line-height: 1.4rem;
+    padding: 16px 5px;
+}
+.point-table td {
+    font-size: 1.4rem;
+    line-height: 2rem;
+    padding: 6px;
+    color: #667580;
+}
+.point-table tr:nth-child(2n) {
+    background-color: #f5f5f5;
+}
+.point-table .point-table__wrap-name {
+    text-align: center;
+    width: 330px;
+    max-width: 330px;
+}
+.point-table__order {
+
+}
+.point-table__class-id {
+
+}
+.point-table .point-table__name {
+    
+}
+.point-table__unit {
+
+}
+.point-table__mid-term {
+
+}
+.point-table__final-term {
+
+}
+.point-table__type {
+
+}
+
+
+.back-btn {
+    display: block;
+    margin-top: 32px;
+    background-color: var(--btn-color);
+    outline: none;
+    border: none;
+    padding: 8px 16px;
+    width: 120px;
+    max-width: 120px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    border-radius: 4px;
+    text-decoration: none;
+    cursor: pointer;
+    box-shadow: 0 1px 3px rgba(0, 0, 0, 0.5);
+}
+.back-btn:hover {
+    opacity: 0.9;
+}
+.back-btn__icon {
+    font-size: 1.6rem;
+    color: var(--white-color);
+}
+.back-btn__label {
+    color: var(--white-color);
+    font-size: 1.6rem;
+    font-weight: var(--font-weight-700);
+}
