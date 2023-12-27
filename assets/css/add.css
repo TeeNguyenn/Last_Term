@@ -1,0 +1,82 @@
+.add {
+    margin: 100px 0;
+}
+.add__header {
+    font-size: 4rem;
+    line-height: 4rem;
+    color: var(--orange-color);
+    text-align: center;
+    margin-bottom: 50px;
+}
+.add__form {
+    font-size: 1.6rem;
+    color: var(--text-color);
+}
+.add__form-group {
+    margin-bottom: 16px;
+}
+.add__label {
+    margin-bottom: 8px;
+}
+.add__form-group input {
+    margin-bottom: 8px;
+    width: 100%;
+    height: 40px;
+    outline: none;
+    border: 1px solid var(--border-color-2);
+    border-radius: 3px;
+}
+.add__form-group input:focus {
+    border-color: var(--greeen-color);
+}
+.add__wrapper {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.add__wrapper .add__form-group {
+    width: 46%;
+}
+.add__name {
+
+}
+.add__form-group .add__img {
+    width: auto;
+    border: none;
+    position: relative;
+    top: 4px;
+}
+.add__brand {
+
+}
+.add__unit {
+
+}
+.add__price {
+
+}
+.add__form-group .add__dsc {
+    width: 100%;
+    outline: none;
+    border: 1px solid var(--border-color-2);
+}
+.add__form-group .add__dsc:focus {
+    border-color: var(--greeen-color);
+}
+.add__btn {
+    position: relative;
+    left: 100%;
+    transform: translateX(-100%);
+    padding: 10px 50px;
+    background-color: var(--btn-color);
+    color: var(--white-color);
+    outline: none;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-weight: 600;
+    letter-spacing: 0.1rem;
+}
+.add__btn:hover {
+    opacity: 0.8;
+}

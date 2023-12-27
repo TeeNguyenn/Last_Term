@@ -1,0 +1,125 @@
+.manage {
+    margin: 100px 0;
+}
+.manage__header {
+    text-align: center;
+    font-size: 4rem;
+    line-height: 4rem;
+    margin-bottom: 50px;
+    color: var(--orange-color);
+}
+.manage__add-product {
+    background-color: var(--greeen-color);
+    border-radius: 6px;
+    color: var(--white-color);
+    font-size: 1.6rem;
+    line-height: 1.6rem;
+    outline: none;
+    border: none;
+    min-width: 200px;
+    min-height: 36px;
+    cursor: pointer;
+    padding: 0 8px;
+    margin-bottom: 40px;
+}
+.manage__add-product:hover {
+    opacity: 0.9;
+}
+.manage__add-icon {
+
+}
+.manage__add-label {
+
+}
+
+.manage__table {
+    border: 1px solid var(--border-color-2);
+    border-collapse: collapse;
+}
+.manage__tr {
+    font-size: 1.6rem;
+    line-height: 1.6rem;
+}
+.manage__tr:nth-child(2n+1) {
+    background-color: var(--border-color);
+}
+.manage__th {
+    background-color: var(--background-color-2);
+    font-size: 1.6rem;
+    line-height: 2rem;
+    text-align: center;
+    padding: 14px 12px;
+}
+.manage__id {
+    width: 130px;
+    text-align: center;
+}
+.manage__img-wrap {
+    width: 100px;
+    height: auto;
+    margin: 12px;
+}
+.manage__img {
+    width: 100%;
+    height: auto;
+    object-fit: cover;
+    object-position: center;
+}
+.manage__name {
+    padding: 0 12px;
+    width: 260px;
+    line-height: 2.4rem;
+    
+}
+.manage__brand {
+    text-align: center;
+}
+.manage__unit {
+    text-align: center;
+    width: 94px;
+}
+.manage__price {
+    text-align: center;
+    width: 100px;
+    color: var(--primary-color);
+}
+.manage__dsc {
+    width: 250px;
+    margin: 0 12px;
+    overflow: hidden;
+    display: -webkit-box;
+    -webkit-box-orient: vertical;
+    -webkit-line-clamp: 3;
+    line-height: 2rem;
+}
+.manage__btn-wrap {
+    text-align: center;
+    width: 100px;
+}
+.manage__delete-btn {
+    background-color: var(--btn-color);
+    outline: none;
+    border: none;
+    border-radius: 5px;
+    padding: 4px 6px;
+    margin-right: 6px;
+    cursor: pointer;
+}
+.manage__delete-btn-icon {
+    color: var(--white-color)
+}
+.manage__modify-btn {
+    background-color: var(--background-color);
+    outline: none;
+    border: none;
+    border-radius: 5px;
+    padding: 4px 6px;
+    cursor: pointer;
+}
+.manage__modify-btn-icon {
+    color: var(--white-color);
+}
+.manage__delete-btn:hover,
+.manage__modify-btn:hover {
+    opacity: 0.8;
+}

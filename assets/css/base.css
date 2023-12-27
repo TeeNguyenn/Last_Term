@@ -5,7 +5,7 @@
     --font-weight-900: 900;
     --font-weight-700: 700;
     --orange-color: #e75718;
-    --background-color-2: #e7ecf0;
+    --background-color-3: #e7ecf0;
     --text-color: #2b2b2b;
     --text-color-2: #667580;
     --border-color: #eaeaea;
@@ -16,6 +16,8 @@
     --black-color: black;
     --text-color-3: #006699;
     --label-color: #000066;
+    --border-color-2: #d9dadb;
+    --greeen-color: #00A465;
 }
 * {
     box-sizing: inherit;
